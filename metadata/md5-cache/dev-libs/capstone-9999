@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=disassembly/disassembler framework + bindings
+EAPI=6
+HOMEPAGE=http://www.capstone-engine.org/
+IUSE=python python_targets_python2_7 python_targets_python3_6
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=BSD
+SLOT=0/3
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	multibuild	35719a9cd25ec71ee49c966f6868454c	multilib	97f470f374f2e94ccab04a2fb21d811e	python-r1	0b5829eb6369d7af3a834b6eed7b7107	python-utils-r1	7db901256449fef43c3aaa4d486c1c63	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
+_md5_=4069036f222c03c1224e88152d198fa6

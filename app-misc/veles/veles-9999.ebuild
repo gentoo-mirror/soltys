@@ -4,7 +4,7 @@
 EAPI=6
 
 PYTHON_COMPAT=( python3_6 )
-inherit cmake-utils git-r3 python-r1
+inherit cmake-utils git-r3 distutils-r1
 
 DESCRIPTION="New open source tool for binary data analysis"
 SLOT="0"
@@ -27,5 +27,6 @@ DEPEND="sys-libs/zlib
 	"
 
 src_configure() {
-	python_setup
+	distutils-r1_python_prepare_all
+	cmake-utils_src_configure
 }

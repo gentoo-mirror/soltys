@@ -1,8 +1,10 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-inherit cmake-utils git-r3
+
+PYTHON_COMPAT=( python3_6 )
+inherit cmake-utils git-r3 python-r1
 
 DESCRIPTION="New open source tool for binary data analysis"
 SLOT="0"
@@ -20,4 +22,10 @@ DEPEND="sys-libs/zlib
 	>=dev-qt/qtgui-5.5
 	>=dev-qt/qtcore-5.5
 	>=dev-qt/qtwidgets-5.5
+	dev-python/pyopenssl
+	dev-python/msgpack
 	"
+
+src_configure() {
+	python_setup
+}

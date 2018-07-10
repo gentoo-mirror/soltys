@@ -26,6 +26,10 @@ DEPEND="sys-libs/zlib
 	dev-python/msgpack
 	"
 
+src_prepare() {
+	cmake-utils_src_prepare
+}
+
 src_configure() {
 	python_setup
 	cmake-utils_src_configure
@@ -34,8 +38,8 @@ src_configure() {
 
 src_compile() {
 	cmake-utils_src_compile
-	cd "$WORKDIR/$P"/python
-	distutils-r1_python_compile
+	#cd "$WORKDIR/$P"/python
+	#distutils-r1_python_compile
 }
 
 src_install() {

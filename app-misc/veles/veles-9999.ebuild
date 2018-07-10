@@ -31,12 +31,15 @@ src_configure() {
 	cmake-utils_src_configure
 }
 
-python_compile() {
+
+src_compile() {
+	cmake-utils_src_compile
 	cd "$WORKDIR/$P"/python
 	distutils-r1_python_compile
 }
 
-python_install() {
+src_install() {
+	cmake-utils_src_install
 	cd "$WORKDIR/$P"/python
 	distutils-r1_python_install
 }

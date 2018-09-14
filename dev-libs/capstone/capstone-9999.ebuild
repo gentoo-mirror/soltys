@@ -5,7 +5,7 @@ EAPI=6
 
 DISTUTILS_OPTIONAL=1
 PYTHON_COMPAT=( python{2_7,3_6} )
-inherit git-r3 distutils-r1 toolchain-funcs
+inherit cmake-utils git-r3 distutils-r1 toolchain-funcs
 
 DESCRIPTION="disassembly/disassembler framework + bindings"
 HOMEPAGE="http://www.capstone-engine.org/"
@@ -34,7 +34,7 @@ wrap_python() {
 }
 
 src_prepare() {
-	default
+	cmake-utils_src_prepare
 
 	wrap_python ${FUNCNAME}
 }
@@ -56,23 +56,24 @@ src_configure() {
 		LIBDIRARCH = $(get_libdir)
 		EOF
 	} >> config.mk || die
+	cmake-utils_src_configure
 	wrap_python ${FUNCNAME}
 }
 
 src_compile() {
-	default
+	cmake-utils_src_compile
 
 	wrap_python ${FUNCNAME}
 }
 
 src_test() {
-	default
+	cmake-utils_src_test
 
 	wrap_python ${FUNCNAME}
 }
 
 src_install() {
-	default
+	cmake-utils_src_install
 
 	wrap_python ${FUNCNAME}
 }

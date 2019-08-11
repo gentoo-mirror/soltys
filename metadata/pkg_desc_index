@@ -1,0 +1,13 @@
+app-forensics/snowman 9999: A native code to C/C++ decompiler
+app-misc/ROPgadget 9999: Tool to search for gadgets in binaries to facilitate your ROP exploitation
+app-misc/veles 9999: New open source tool for binary data analysis
+dev-libs/capstone 9999: disassembly/disassembler framework + bindings
+dev-python/django 2.0.7: High-level Python web framework
+dev-python/msgcheck 9999: Gettext file checker
+dev-python/pwntools 9999: Pwntools is a CTF framework and exploit development library.
+dev-python/pypandoc 9999: Pypandoc provides a thin wrapper for pandoc, a universal document converter.
+dev-python/r2pipe 9999: Enable scripting of radare2
+dev-util/cutter 9999: A Qt and C++ GUI for radare2 reverse engineering framework
+dev-util/unicorn 9999: A lightweight multi-platform, multi-architecture CPU emulator framework
+net-im/telegram-desktop-bin 1.3.9: Official desktop client for Telegram (binary package)
+sys-kernel/hardened-sources 4.7.1: Hardened kernel sources (kernel series 4.7)

@@ -1,9 +1,10 @@
-# Copyright 1999-2019 Gentoo Foundation
+# Copyright 2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
+PYTHON_COMPAT=( python3_{6,7,8} )
 
-inherit qmake-utils git-r3 xdg-utils gnome2-utils
+inherit qmake-utils xdg-utils python-single-r1 git-r3
 
 DESCRIPTION="A Qt and C++ GUI for radare2 reverse engineering framework"
 HOMEPAGE="http://www.radare.org"
@@ -29,7 +30,7 @@ DEPEND="
 RDEPEND="${DEPEND}"
 
 PATCHES=(
-        "${FILESDIR}/${P}-python3-config.patch"
+	"${FILESDIR}/${P}-python3-config.patch"
 )
 
 src_configure() {

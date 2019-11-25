@@ -14,8 +14,8 @@ EGIT_SUBMODULES=( -radare2 )
 
 LICENSE="GPL-3"
 SLOT="0"
-IUSE="jupyter webengine"
-REQUIRED_USE="webengine? ( jupyter )"
+IUSE="+python"
+REQUIRED_USE=""
 
 DEPEND="
 	>=dev-qt/qtcore-5.9.1:5
@@ -23,8 +23,9 @@ DEPEND="
 	>=dev-qt/qtsvg-5.9.1:5
 	>=dev-qt/qtwidgets-5.9.1:5
 	>=dev-util/radare2-9999
-	jupyter? ( dev-python/jupyter )
-	webengine? ( >=dev-qt/qtwebengine-5.9.1:5[widgets] )
+	>=dev-qt/qtwebengine-5.9.1:5[widgets]
+	kde-frameworks/syntax-highlighting
+	python? ( dev-python/shiboken2 )
 "
 
 RDEPEND="${DEPEND}"
@@ -35,8 +36,9 @@ PATCHES=(
 
 src_configure() {
 	local myqmakeargs=(
-		CUTTER_ENABLE_JUPYTER=$(usex jupyter true false)
-		CUTTER_ENABLE_QTWEBENGINE=$(usex webengine true false)
+		CUTTER_ENABLE_PYTHON_BINDINGS=$(usex python true false)
+		CUTTER_ENABLE_PYTHON=true
+		CUTTER_ENABLE_KSYNTAXHIGHLIGHTING=true
 		PREFIX=\'${EPREFIX}/usr\'
 	)
 

@@ -4,6 +4,7 @@ app-misc/veles 9999: New open source tool for binary data analysis
 dev-libs/capstone 9999: disassembly/disassembler framework + bindings
 dev-python/django 2.0.7: High-level Python web framework
 dev-python/msgcheck 9999: Gettext file checker
+dev-python/nototools 0.2.1: Noto fonts support tools and scripts plus web site generation
 dev-python/pwntools 9999: Pwntools is a CTF framework and exploit development library.
 dev-python/pypandoc 9999: Pypandoc provides a thin wrapper for pandoc, a universal document converter.
 dev-python/r2pipe 9999: Enable scripting of radare2

@@ -1,13 +1,14 @@
-DEFINED_PHASES=configure install postrm unpack
-DEPEND=>=dev-qt/qtcore-5.9.1:5 >=dev-qt/qtgui-5.9.1:5 >=dev-qt/qtsvg-5.9.1:5 >=dev-qt/qtwidgets-5.9.1:5 >=dev-util/radare2-9999 jupyter? ( dev-python/jupyter ) webengine? ( >=dev-qt/qtwebengine-5.9.1:5[widgets] ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install postrm setup unpack
+DEPEND=>=dev-qt/qtcore-5.9.1:5 >=dev-qt/qtgui-5.9.1:5 >=dev-qt/qtsvg-5.9.1:5 >=dev-qt/qtwidgets-5.9.1:5 >=dev-util/radare2-9999 jupyter? ( dev-python/jupyter ) webengine? ( >=dev-qt/qtwebengine-5.9.1:5[widgets] )
 DESCRIPTION=A Qt and C++ GUI for radare2 reverse engineering framework
-EAPI=6
+EAPI=7
 HOMEPAGE=http://www.radare.org
-IUSE=jupyter webengine
+IUSE=jupyter webengine python_targets_python3_6 python_targets_python3_7 python_targets_python3_8 python_single_target_python3_6 python_single_target_python3_7 python_single_target_python3_8
 LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=>=dev-qt/qtcore-5.9.1:5 >=dev-qt/qtgui-5.9.1:5 >=dev-qt/qtsvg-5.9.1:5 >=dev-qt/qtwidgets-5.9.1:5 >=dev-util/radare2-9999 jupyter? ( dev-python/jupyter ) webengine? ( >=dev-qt/qtwebengine-5.9.1:5[widgets] )
 REQUIRED_USE=webengine? ( jupyter )
 SLOT=0
-_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	git-r3	562b380fc59ae6a8622171d0acb777d1	gnome2-utils	532371cfcba45b2ab0d2950547c97d95	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=9989fc2e819eea950c73f989667d4f8b
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	git-r3	562b380fc59ae6a8622171d0acb777d1	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	3a0fc81f484bfdbd9c2b7448015a36e4	python-utils-r1	02ef27875ec5afcc2202b9d062d57f07	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=1e4f899ff618767fce847c0e2ba14e5c

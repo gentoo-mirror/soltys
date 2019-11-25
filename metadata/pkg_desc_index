@@ -10,5 +10,6 @@ dev-python/pypandoc 9999: Pypandoc provides a thin wrapper for pandoc, a univers
 dev-python/r2pipe 9999: Enable scripting of radare2
 dev-util/cutter 9999: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/unicorn 9999: A lightweight multi-platform, multi-architecture CPU emulator framework
+gnome-base/dconf 0.32.0-r1: Simple low-level configuration system
 net-im/telegram-desktop-bin 1.3.9: Official desktop client for Telegram (binary package)
 sys-kernel/hardened-sources 4.7.1: Hardened kernel sources (kernel series 4.7)

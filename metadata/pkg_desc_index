@@ -1,6 +1,7 @@
 app-forensics/snowman 9999: A native code to C/C++ decompiler
 app-misc/ROPgadget 9999: Tool to search for gadgets in binaries to facilitate your ROP exploitation
 app-misc/veles 9999: New open source tool for binary data analysis
+dev-embedded/arduino 1.8.10: An open-source AVR electronics prototyping platform
 dev-python/msgcheck 9999: Gettext file checker
 dev-python/nototools 0.2.1: Noto fonts support tools and scripts plus web site generation
 dev-python/pwntools 9999: Pwntools is a CTF framework and exploit development library.

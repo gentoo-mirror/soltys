@@ -25,14 +25,12 @@ DEPEND="
 	>=dev-util/radare2-9999
 	>=dev-qt/qtwebengine-5.9.1:5[widgets]
 	kde-frameworks/syntax-highlighting
-	python? ( dev-python/shiboken2 )
+	python? (	>=dev-python/shiboken2-5.12.5-r3
+				>=dev-python/pyside2-5.12.5-r3
+			)
 "
 
 RDEPEND="${DEPEND}"
-
-PATCHES=(
-	"${FILESDIR}/${P}-python3-config.patch"
-)
 
 src_configure() {
 	local myqmakeargs=(

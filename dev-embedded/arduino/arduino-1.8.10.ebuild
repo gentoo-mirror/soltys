@@ -19,8 +19,8 @@ for docname in "${ARDUINO_DOCS[@]}"; do
 done
 
 SRC_URI="https://github.com/arduino/Arduino/archive/${PV}.tar.gz -> ${P}.tar.gz
-	https://downloads.arduino.cc/cores/avr-1.6.23.tar.bz2 -> ${PN}-avr-1.6.23.tar.bz2
-	https://github.com/arduino-libraries/WiFi101-FirmwareUpdater-Plugin/releases/download/v0.9.2/WiFi101-Updater-ArduinoIDE-Plugin-0.9.2.zip -> ${PN}-WiFi101-Updater-ArduinoIDE-Plugin-0.9.2.zip
+	https://downloads.arduino.cc/cores/avr-1.8.1.tar.bz2 -> ${PN}-avr-1.8.1.tar.bz2
+	https://github.com/arduino-libraries/WiFi101-FirmwareUpdater-Plugin/releases/download/v0.10.9/WiFi101-Updater-ArduinoIDE-Plugin-0.10.9.zip -> ${PN}-WiFi101-Updater-ArduinoIDE-Plugin-0.10.9.zip
 	doc? (
 		${ARDUINO_DOCS_URI}
 	)"
@@ -61,8 +61,8 @@ src_unpack() {
 	# We don't want to unpack tools, just move zip files into the work dir
 	unpack `echo ${A} | cut -d ' ' -f1`
 
-	cp "${DISTDIR}/${PN}-avr-1.6.23.tar.bz2" "${S}/build/avr-1.6.23.tar.bz2" || die
-	cp "${DISTDIR}/${PN}-WiFi101-Updater-ArduinoIDE-Plugin-0.9.2.zip" "${S}/build/shared/WiFi101-Updater-ArduinoIDE-Plugin-0.9.2.zip"|| die
+	cp "${DISTDIR}/${PN}-avr-1.8.1.tar.bz2" "${S}/build/avr-1.8.1.tar.bz2" || die
+	cp "${DISTDIR}/${PN}-WiFi101-Updater-ArduinoIDE-Plugin-0.10.9.zip" "${S}/build/shared/WiFi101-Updater-ArduinoIDE-Plugin-0.10.9.zip"|| die
 
 	if use doc; then
 		local docname

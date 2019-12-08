@@ -3,11 +3,12 @@ app-misc/ROPgadget 9999: Tool to search for gadgets in binaries to facilitate yo
 app-misc/veles 9999: New open source tool for binary data analysis
 dev-embedded/arduino 1.8.10: An open-source AVR electronics prototyping platform
 dev-embedded/platformio 4.1.0: An open source ecosystem for IoT development
+dev-libs/unicorn-bindings 9999: Unicorn bindings
+dev-python/intervaltree 3.0.2: Editable interval tree data structure for Python 2 and 3
 dev-python/marshmallow 2.20.5: A lightweight library for converting complex datatypes to and from native Python datatypes.
 dev-python/msgcheck 9999: Gettext file checker
 dev-python/nototools 0.2.1: Noto fonts support tools and scripts plus web site generation
 dev-python/pwntools 9999: Pwntools is a CTF framework and exploit development library.
-dev-python/pypandoc 9999: Pypandoc provides a thin wrapper for pandoc, a universal document converter.
 dev-python/r2pipe 9999: Enable scripting of radare2
 dev-util/cutter 9999: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/unicorn 9999: A lightweight multi-platform, multi-architecture CPU emulator framework

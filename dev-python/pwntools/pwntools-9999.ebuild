@@ -14,6 +14,7 @@ EGIT_REPO_URI="https://github.com/Gallopsled/pwntools.git"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
+IUSE="test"
 
 DEPEND="dev-lang/python
 		>=dev-python/paramiko-1.15.2[${PYTHON_USEDEP}]
@@ -24,7 +25,6 @@ DEPEND="dev-lang/python
 		>=dev-python/pyserial-2.7[${PYTHON_USEDEP}]
 		>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 		>=dev-python/pip-6.0.8[${PYTHON_USEDEP}]
-		>=dev-python/tox-1.8.1[${PYTHON_USEDEP}]
 		>=dev-python/pygments-2.0[${PYTHON_USEDEP}]
 		dev-python/PySocks[${PYTHON_USEDEP}]
 		dev-python/python-dateutil[${PYTHON_USEDEP}]
@@ -32,4 +32,5 @@ DEPEND="dev-lang/python
 		>=dev-python/psutil-3.3.0[${PYTHON_USEDEP}]
 		>=dev-python/intervaltree-3.0[${PYTHON_USEDEP}]
 		dev-libs/unicorn-bindings[python,${PYTHON_USEDEP}]
-		dev-python/sortedcontainers[${PYTHON_USEDEP}]"
+		dev-python/sortedcontainers[${PYTHON_USEDEP}]
+		test? ( >=dev-python/tox-1.8.1[${PYTHON_USEDEP}] )"

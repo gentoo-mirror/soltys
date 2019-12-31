@@ -10,6 +10,7 @@ dev-python/msgcheck 9999: Gettext file checker
 dev-python/nototools 0.2.1: Noto fonts support tools and scripts plus web site generation
 dev-python/pwndbg 9999: Makes debugging with GDB suck less
 dev-python/pwntools 9999: Pwntools is a CTF framework and exploit development library.
+dev-python/pytest-sphinx 0.2.2: A doctest plugin for pytest, which understands the sphinx-specific directives
 dev-python/r2pipe 9999: Enable scripting of radare2
 dev-util/cutter 9999: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/unicorn 9999: A lightweight multi-platform, multi-architecture CPU emulator framework

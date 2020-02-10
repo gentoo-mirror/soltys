@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare setup unpack
-DEPEND=dev-lang/python sys-devel/gdb[python,%PYTHON_USEDEP-HAS-BEEN-REMOVED%] dev-python/future[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] dev-python/isort[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] dev-python/pyelftools[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] ~dev-libs/capstone-4.0.1[python,%PYTHON_USEDEP-HAS-BEEN-REMOVED%] app-misc/ROPgadget[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] dev-python/pip[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] dev-python/pygments[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] >=dev-python/psutil-3.1.0[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] >=dev-libs/unicorn-bindings-1.0.0[python,%PYTHON_USEDEP-HAS-BEEN-REMOVED%] dev-python/pycparser[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] dev-python/six[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] python_targets_python2_7? ( dev-python/enum34 ) dev-python/pytest[%PYTHON_USEDEP-HAS-BEEN-REMOVED%]
+DEPEND=dev-lang/python sys-devel/gdb[python] dev-python/future dev-python/isort dev-python/pyelftools ~dev-libs/capstone-4.0.1[python] app-misc/ROPgadget dev-python/pip dev-python/pygments >=dev-python/psutil-3.1.0 >=dev-libs/unicorn-bindings-1.0.0[python] dev-python/pycparser dev-python/six dev-python/pytest
 DESCRIPTION=Makes debugging with GDB suck less
 EAPI=7
 HOMEPAGE=https://github.com/pwndbg/pwndbg
-IUSE=python_single_target_python2_7 python_single_target_python3_6 python_single_target_python3_7
+IUSE=python_single_target_python3_6 python_single_target_python3_7
 KEYWORDS=~amd64
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	fdfdbe462f245e931069310e892a8538	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=6f02d516bfd7d5ed85a6fe845dee5b86
+_md5_=1be28fad4a1e1068c112e01d5eabd30d

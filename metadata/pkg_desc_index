@@ -15,6 +15,7 @@ dev-python/pwntools 9999: Pwntools is a CTF framework and exploit development li
 dev-python/pytest-sphinx 0.2.2: A doctest plugin for pytest, which understands the sphinx-specific directives
 dev-python/r2pipe 9999: Enable scripting of radare2
 dev-python/regex 2020.1.8: Alternative regular expression module to replace re
+dev-python/rope 0.16.0: Python refactoring library
 dev-util/cutter 9999: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/unicorn 9999: A lightweight multi-platform, multi-architecture CPU emulator framework
 gnome-base/dconf 0.32.0-r1: Simple low-level configuration system

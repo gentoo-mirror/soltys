@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -18,21 +18,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	dev-python/setuptools"
 RDEPEND="${DEPEND}
-	<dev-python/bottle-0.13[${PYTHON_USEDEP}]
-	>=dev-python/click-5[${PYTHON_USEDEP}]
-	<dev-python/click-8[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	>=dev-python/pyserial-3[${PYTHON_USEDEP}]
-	<dev-python/pyserial-4[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.4[${PYTHON_USEDEP}]
-	<dev-python/requests-3[${PYTHON_USEDEP}]
-	>=dev-python/semantic_version-2.8.1[${PYTHON_USEDEP}]
-	<dev-python/semantic_version-3[${PYTHON_USEDEP}]
-	>=dev-python/tabulate-0.8.3[${PYTHON_USEDEP}]
-	<dev-python/tabulate-1[${PYTHON_USEDEP}]
-	>=dev-python/pyelftools-0.25[${PYTHON_USEDEP}]
-	<dev-python/pyelftools-1[${PYTHON_USEDEP}]
-	>=dev-python/marshmallow-2.20.5[${PYTHON_USEDEP}]
-	<dev-python/marshmallow-3[${PYTHON_USEDEP}]"
+	<dev-python/bottle-0.13
+	>=dev-python/click-5
+	<dev-python/click-8
+	dev-python/colorama
+	>=dev-python/pyserial-3
+	<dev-python/pyserial-4
+	>=dev-python/requests-2.4
+	<dev-python/requests-3
+	>=dev-python/semantic_version-2.8.1
+	<dev-python/semantic_version-3
+	>=dev-python/tabulate-0.8.3
+	<dev-python/tabulate-1
+	>=dev-python/pyelftools-0.25
+	<dev-python/pyelftools-1
+	>=dev-python/marshmallow-2.20.5
+	<dev-python/marshmallow-3"

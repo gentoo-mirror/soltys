@@ -1,9 +1,9 @@
-# Copyright 2019 Gentoo Authors
+# Copyright 2019-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-PYTHON_COMPAT=( python{2_7,3_6,3_7} )
+PYTHON_COMPAT=( python3_{6,7} )
 
 inherit python-single-r1 git-r3
 
@@ -16,22 +16,19 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 DEPEND="dev-lang/python
-		sys-devel/gdb[python,${PYTHON_USEDEP}]
-		dev-python/future[${PYTHON_USEDEP}]
-		dev-python/isort[${PYTHON_USEDEP}]
-		dev-python/pyelftools[${PYTHON_USEDEP}]
-		~dev-libs/capstone-4.0.1[python,${PYTHON_USEDEP}]
-		app-misc/ROPgadget[${PYTHON_USEDEP}]
-		dev-python/pip[${PYTHON_USEDEP}]
-		dev-python/pygments[${PYTHON_USEDEP}]
-		>=dev-python/psutil-3.1.0[${PYTHON_USEDEP}]
-		>=dev-libs/unicorn-bindings-1.0.0[python,${PYTHON_USEDEP}]
-		dev-python/pycparser[${PYTHON_USEDEP}]
-		dev-python/six[${PYTHON_USEDEP}]
-		python_targets_python2_7? (
-		dev-python/enum34
-	)
-		dev-python/pytest[${PYTHON_USEDEP}]"
+		sys-devel/gdb[python]
+		dev-python/future
+		dev-python/isort
+		dev-python/pyelftools
+		~dev-libs/capstone-4.0.1[python]
+		app-misc/ROPgadget
+		dev-python/pip
+		dev-python/pygments
+		>=dev-python/psutil-3.1.0
+		>=dev-libs/unicorn-bindings-1.0.0[python]
+		dev-python/pycparser
+		dev-python/six
+		dev-python/pytest"
 
 src_prepare() {
 	sed '/0L/d' -i ida_script.py

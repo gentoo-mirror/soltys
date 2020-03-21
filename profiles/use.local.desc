@@ -8,4 +8,7 @@ dev-util/unicorn:unicorn_targets_m68k - Target architecture M68K
 dev-util/unicorn:unicorn_targets_mips - Target architecture MIPS
 dev-util/unicorn:unicorn_targets_sparc - Target architecture SPARC
 dev-util/unicorn:unicorn_targets_x86 - Target architecture x86 (16, 32, 64-bit)
+net-vpn/openconnect:gssapi - Build GSSAPI support
+net-vpn/openconnect:libproxy - Enable proxy support
+net-vpn/openconnect:stoken - Enable stoken support
 sys-kernel/hardened-sources:deblob - Remove binary blobs from kernel sources to provide libre license compliance.

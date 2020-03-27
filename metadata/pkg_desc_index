@@ -20,5 +20,6 @@ dev-util/cutter 9999: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/unicorn 9999: A lightweight multi-platform, multi-architecture CPU emulator framework
 dev-vcs/python-gitlab 2.0.1: Python command line interface to gitlab API
 gnome-base/dconf 0.32.0-r1: Simple low-level configuration system
+net-im/teams 1.3.00.5153: Microsoft Teams, an Office 365 multimedia collaboration client, pre-release
 net-vpn/openconnect 8.05-r1: Free client for Cisco AnyConnect SSL VPN software
 sys-kernel/hardened-sources 4.7.1: Hardened kernel sources (kernel series 4.7)

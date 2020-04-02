@@ -22,7 +22,8 @@ SLOT="0"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-BDEPEND="dev-python/setuptools
+iDEPEND="dev-python/setuptools
+	>=dev-python/requests-2.22.0
 	test? (
 		dev-python/testrepository
 		dev-python/hacking
@@ -31,10 +32,6 @@ BDEPEND="dev-python/setuptools
 		dev-python/mock
 		>=dev-python/sphinx-1.3
 		dev-python/sphinx_rtd_theme )"
-
-RDEPEND="dev-python/requests
-	dev-python/setuptools
-	dev-python/six"
 
 python_install_all() {
 	distutils-r1_python_install_all

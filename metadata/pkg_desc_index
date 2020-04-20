@@ -3,6 +3,7 @@ app-misc/ROPgadget 9999: Tool to search for gadgets in binaries to facilitate yo
 app-misc/veles 9999: New open source tool for binary data analysis
 dev-embedded/arduino 1.8.10: An open-source AVR electronics prototyping platform
 dev-embedded/platformio 4.1.0: An open source ecosystem for IoT development
+dev-lang/micropython 1.12: Python implementation for microcontrollers
 dev-libs/unicorn-bindings 9999: Unicorn bindings
 dev-python/black 9999: Black is the uncompromising Python code formatter
 dev-python/django 3.0.5: High-level Python web framework

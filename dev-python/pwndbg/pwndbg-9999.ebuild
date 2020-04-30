@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit python-single-r1 git-r3
 
@@ -15,8 +15,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
-DEPEND="dev-lang/python
-		sys-devel/gdb[python]
+DEPEND="sys-devel/gdb[python]
 		dev-python/future
 		dev-python/isort
 		dev-python/pyelftools

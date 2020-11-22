@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6,7,8,9} )
 
 inherit distutils-r1 git-r3
 
@@ -30,5 +30,7 @@ DEPEND="dev-lang/python
 		dev-python/packaging
 		>=dev-python/psutil-3.3.0
 		>=dev-python/intervaltree-3.0
-		dev-libs/unicorn-bindings[python]
-		dev-python/sortedcontainers"
+		dev-util/unicorn[python]
+		dev-python/sortedcontainers
+		>=dev-python/six-1.12.0
+		dev-python/rpyc"

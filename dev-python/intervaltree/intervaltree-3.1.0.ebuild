@@ -1,9 +1,9 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} )
+PYTHON_COMPAT=( python2_7 python3_{5,6,7,8} )
 
 inherit distutils-r1
 
@@ -16,12 +16,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
-RDEPEND="dev-python/sortedcontainers[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/sortedcontainers
+	"
 DEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/setuptools
+	${RDEPEND}
 	test? (
-		${RDEPEND}
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest
 	)"
 
 python_test() {

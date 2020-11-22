@@ -6,7 +6,7 @@ dev-embedded/platformio 4.1.0 4.3.3: An open source ecosystem for IoT developmen
 dev-libs/unicorn-bindings 9999: Unicorn bindings
 dev-python/black 9999: Black is the uncompromising Python code formatter
 dev-python/django 3.0.5: High-level Python web framework
-dev-python/intervaltree 3.0.2: Editable interval tree data structure for Python 2 and 3
+dev-python/intervaltree 3.1.0: Editable interval tree data structure for Python 2 and 3
 dev-python/junitparser 1.4.1-r1: Pythonic JUnit/xUnit Result XML Parser
 dev-python/marshmallow 2.20.5: A lightweight library for converting complex datatypes to and from native Python datatypes.
 dev-python/msgcheck 9999: Gettext file checker

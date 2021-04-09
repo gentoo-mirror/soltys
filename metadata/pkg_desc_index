@@ -24,4 +24,3 @@ net-im/discord-bin 0.0.11: All-in-one voice and text chat for gamers
 net-im/teams 1.3.00.5153 1.3.00.16851: Microsoft Teams, an Office 365 multimedia collaboration client, pre-release
 net-vpn/openconnect 8.05-r1: Free client for Cisco AnyConnect SSL VPN software
 sci-electronics/pulseview 0.4.2: Qt based logic analyzer GUI for sigrok
-sys-kernel/hardened-sources 4.7.1: Hardened kernel sources (kernel series 4.7)

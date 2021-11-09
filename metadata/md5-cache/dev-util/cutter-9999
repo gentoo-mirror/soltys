@@ -10,5 +10,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=>=dev-qt/qtcore-5.9.1:5 >=dev-qt/qtgui-5.9.1:5 >=dev-qt/qtsvg-5.9.1:5 >=dev-qt/qtwidgets-5.9.1:5 >=dev-util/radare2-9999 >=dev-qt/qtwebengine-5.9.1:5[widgets] kde-frameworks/syntax-highlighting python? ( >=dev-python/shiboken2-5.12.5-r3 >=dev-python/pyside2-5.12.5-r3 )
 SLOT=0
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	qmake-utils	f5eb2f69fffe94292aaaf802fb21c8d1	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	python-utils-r1	655fe65f186504e455c2f3116808fda8	python-single-r1	d46c125afba8be02eb1cd7104bac6e9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	qmake-utils	f5eb2f69fffe94292aaaf802fb21c8d1	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	python-utils-r1	a8b7938ade305f087865de7e52d079b5	python-single-r1	d46c125afba8be02eb1cd7104bac6e9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=f04a96e2efe9b838ee49561b079d2601

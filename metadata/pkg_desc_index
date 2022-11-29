@@ -1,7 +1,6 @@
 app-forensics/snowman 9999: A native code to C/C++ decompiler
 app-misc/ROPgadget 9999: Tool to search for gadgets in binaries to facilitate your ROP exploitation
 dev-embedded/arduino 1.8.10: An open-source AVR electronics prototyping platform
-dev-python/black 9999: Black is the uncompromising Python code formatter
 dev-python/junitparser 1.4.1-r1: Pythonic JUnit/xUnit Result XML Parser
 dev-python/msgcheck 9999: Gettext file checker
 dev-python/pwndbg 9999: Makes debugging with GDB suck less
@@ -10,5 +9,4 @@ dev-python/r2pipe 9999: Enable scripting of radare2
 dev-python/regex 2020.1.8: Alternative regular expression module to replace re
 dev-util/cutter 9999: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-vcs/python-gitlab 2.1.2 2.2.0: Python command line interface to gitlab API
-net-im/discord-bin 0.0.11: All-in-one voice and text chat for gamers
 virtual/dist-kernel 5.11.14: Virtual to depend on any Distribution Kernel

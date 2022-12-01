@@ -8,5 +8,3 @@ dev-python/pwntools 9999: Pwntools is a CTF framework and exploit development li
 dev-python/r2pipe 9999: Enable scripting of radare2
 dev-python/regex 2020.1.8: Alternative regular expression module to replace re
 dev-util/cutter 9999: A Qt and C++ GUI for radare2 reverse engineering framework
-dev-vcs/python-gitlab 2.1.2 2.2.0: Python command line interface to gitlab API
-virtual/dist-kernel 5.11.14: Virtual to depend on any Distribution Kernel

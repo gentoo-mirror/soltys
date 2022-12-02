@@ -1,6 +1,4 @@
 app-misc/ROPgadget 9999: Tool to search for gadgets in binaries to facilitate your ROP exploitation
 dev-python/junitparser 1.4.1-r1: Pythonic JUnit/xUnit Result XML Parser
 dev-python/msgcheck 9999: Gettext file checker
-dev-python/pwndbg 9999: Makes debugging with GDB suck less
-dev-python/pwntools 9999: Pwntools is a CTF framework and exploit development library.
 dev-python/regex 2020.1.8: Alternative regular expression module to replace re
